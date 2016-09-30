@@ -5,7 +5,7 @@ import sklearn.mixture as sk
 import os
 import sys
 import pickle
-sys.path.append('/media/jrh94/HD1/Documents/protein_complex_maps/protein_complex_maps/')
+sys.path.append('/home/jrh94/protein_complex_maps/protein_complex_maps/')
 import complex_comparison as cc
 import argparse
 
@@ -132,6 +132,10 @@ def cluster_gmm_core(X,clustN,outputfilename,standard_complexes,standard_filenam
 	print cluster_prediction
 	cluster_prediction_out.append(cluster_prediction)
         pickle.dump(cluster_prediction_out,open(outputfilename+'_clusters.p','wb'))
+	try: 
+		cluster_prediction_out.to_csv(outputfilename+ '_clusters.csv')
+	except:
+		None
 
 	for i,gold_standard_complexes in enumerate(standard_complexes):
 		cplx_comparison = cc.ComplexComparison(gold_standard_complexes, cluster_prediction) 
