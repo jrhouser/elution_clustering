@@ -1,0 +1,5 @@
+	p0_cluster0	p1_cluster0	p2_cluster0
+	p3_cluster1	p4_cluster1	p5_cluster1
+	p6_cluster2
+	p7_cluster3	p8_cluster3	p9_cluster3	p10_cluster3	p11_cluster3
+	p12_cluster4
