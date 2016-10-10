@@ -1,0 +1,4 @@
+,acc,sensitivity,ppv,mmr,precision_recall_product,clique_precision_mean,clique_recall_mean,clique_precision_mean_normalize,clique_recall_mean_normalize,clique_precision_mean_normalize_weighted,clique_recall_mean_normalize_weighted
+2500,,,,,,,,,,,
+0 Ps_gold_complexes_cluster,0.422512966047,0.326923076923,0.546052631579,0.320328935148,0.0342088889846,0.12966753881,0.003516834285,0.0284582863095,0.00215236514722,0.0606894478808,0.0048665276831
+0 GMM_cluster_bayes_compare_ms1_PA_dof5_bayesGMM_clusters,,0.0,,0.0,,,,,,,
