@@ -1,0 +1,1 @@
+python GMM_test_only.py --cluster_bayes --elution_folder "testdata/PA/ms1_filtered/" --clustN 2500 --standard_filenames "testdata/PA/Ps_gold_complexes_cluster.tab testdata/PA/GMM_cluster_bayes_compare_ms1_PA_dof5_bayesGMM_clusters.p" --base_output_filename "testdata/PA/GMM_cluster_bayes_compare_ms1_PA_dof5_bayesGMM_clusters"
